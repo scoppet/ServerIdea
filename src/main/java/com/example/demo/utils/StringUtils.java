@@ -11,4 +11,8 @@ public class StringUtils {
         return false;
     }
 
+    public static String removeDoubleQuote(String str){
+        return str.substring(1,str.length()-1);
+    }
+
 }
